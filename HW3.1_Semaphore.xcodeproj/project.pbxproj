@@ -11,6 +11,7 @@
 		422259C027992D430057517C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422259BF27992D430057517C /* ContentView.swift */; };
 		422259C227992D440057517C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422259C127992D440057517C /* Assets.xcassets */; };
 		422259C527992D440057517C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422259C427992D440057517C /* Preview Assets.xcassets */; };
+		422259CD27992D810057517C /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422259CC27992D810057517C /* Light.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		422259BF27992D430057517C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		422259C127992D440057517C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		422259C427992D440057517C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		422259CC27992D810057517C /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		422259BC27992D430057517C /* HW3.1_Semaphore */ = {
 			isa = PBXGroup;
 			children = (
+				422259CB27992D5D0057517C /* SwiftUI */,
 				422259BD27992D430057517C /* HW3_1_SemaphoreApp.swift */,
-				422259BF27992D430057517C /* ContentView.swift */,
 				422259C127992D440057517C /* Assets.xcassets */,
 				422259C327992D440057517C /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				422259C427992D440057517C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		422259CB27992D5D0057517C /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				422259BF27992D430057517C /* ContentView.swift */,
+				422259CC27992D810057517C /* Light.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422259CD27992D810057517C /* Light.swift in Sources */,
 				422259C027992D430057517C /* ContentView.swift in Sources */,
 				422259BE27992D430057517C /* HW3_1_SemaphoreApp.swift in Sources */,
 			);
